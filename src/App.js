@@ -9,7 +9,7 @@ import {
 
 import Home from './pages/Home';
 import About from "./pages/About";
-import Productos from "./pages/Productos";
+import Products from "./pages/Products";
 import Contacts from "./pages/contact";
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
-            <Route path='/productos' element={<Productos />} />
+            <Route path='/productos' element={<Products />} />
             <Route path='/contacts' element={<Contacts />} />
           </Routes>
         </main>
