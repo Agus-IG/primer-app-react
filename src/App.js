@@ -17,25 +17,26 @@ function App() {
     <BrowserRouter>
       <div className='body'>
         <main>
+
           <nav>
-            <ul>
-              <li>
-                <Link to="/">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <Link to="/" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
                   Inicio
                 </Link>
               </li>
-              <li>
-                <Link to="/productos">
+              <li class="nav-item">
+                <Link to="/productos" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
                   Productos
                 </Link>
               </li>
-              <li>
-                <Link to="/about">
+              <li class="nav-item">
+                <Link to="/about" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
                   Acerca de
                 </Link>
               </li>
-              <li>
-                <Link to="/contacts">
+              <li class="nav-item">
+                <Link to="/contacts" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
                   Contactos
                 </Link>
               </li>
