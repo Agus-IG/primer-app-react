@@ -8,9 +8,7 @@ import Imagen3 from "../img/fondo-carrousel-3.jpg";
 function Home() {
     return (
         <>
-            <div>
-                <Carousel imagen={Imagen} imagen2={Imagen2} imagen3={Imagen3} />
-            </div>
+            <Carousel imagen={Imagen} imagen2={Imagen2} imagen3={Imagen3} />
         </>
     )
 
